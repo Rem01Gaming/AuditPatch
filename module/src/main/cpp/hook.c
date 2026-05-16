@@ -30,6 +30,7 @@ static int my_vasprintf(char **strp, const char *fmt, va_list ap) {
             "tcontext=u:r:magisk:s0",
             "tcontext=u:object_r:proc_modules:s0"
             "comm=DefaultDispatch"
+            "/data/adb"
         };
 
         size_t source_contexts_len = sizeof(source_contexts) / sizeof(source_contexts[0]);
